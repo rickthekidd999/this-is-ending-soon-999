@@ -1,0 +1,355 @@
+    *{
+    margin: 0px auto;
+}
+
+::selection{
+    background-color: #2fff67;
+}
+
+body{
+    background-color: rgb(67, 83, 116);
+}
+
+header{
+    height: 80px;
+    width: 84vw;
+    display: flex;
+    flex-direction: row;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.left{
+    flex: 35%;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 3px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.center{
+    flex: 35%;
+    display: flex;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+
+.navbar {
+    width: 84vw;
+    display: flex;
+    overflow: hidden;
+    background-color: #2fff67;
+    font-family: Arial;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+  
+.navbar a {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+  
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+}
+  
+.navbar :hover{
+    background-color: #2fff67;
+    color: rgb(255, 255, 255);
+    transition: 0.4s;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #2fff67;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: rgb(0, 0, 0);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content a:hover {
+    background-color: #2b6859;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+section{
+    height: 700px;
+    display: flex;
+    background-color: #2fff67;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+section.right{
+    background-color: white;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+section.right img{
+    padding-left: 30px;
+}
+
+section.right p{
+    font-family: 'McLaren', 'cursive';
+
+    align-items: center;
+}
+
+.exemploslol{
+    align-items: center;
+    font-size: 25px;
+    padding-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+section.news{
+    color: black;
+    display: flex;
+    align-items: center;
+    background-color: #ff4d79;
+    font-family: 'McLaren', cursive;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+section.news h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+}
+
+section.news p{
+    font-size: 25px;
+}
+
+section.newsshit{
+    width: 84vw;
+    display: flex;
+    background-color: #58d8ff;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+section.newsshit h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+}
+
+section.newsshit p{
+    font-size: 24px;
+}
+
+section.about{
+    text-align: center;
+    display: flex;
+    padding-top: 60px;
+    align-items: center;
+    flex-direction: column;
+    background-color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn{
+    border: none;
+}
+
+.botaomau{
+    color: red;
+}
+
+.botaobom{
+    color: #00af0f;
+}
+
+section h1{
+    width: 80%;
+    text-align: left;
+}
+
+section p{
+    width: 80%;
+    text-align: left;
+}
+
+.image{
+    flex: 1;
+    margin: 15px;
+    padding-right: 40px;
+}
+
+.image2{
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+.assuntobgl{
+    display: flex;
+    padding-bottom: 250px;
+}
+
+.assuntobgl3{
+    padding-right: 350px;
+}
+
+section{
+    width: 85%;
+    background-color: #1cffe1;
+    font-family: 'McLaren', 'cursive';
+     
+}
+
+footer{
+    height: 130px;
+    background-color: #8bf1ff;
+}
+
+footer p{
+    padding-left: 30px;
+}
+
+footer{
+    width: 85%;
+    padding-top: 15px;
+    border-top: solid transparent 7px;
+    font-family: 'McLaren', cursive;
+}
+
+div.submenu{
+    display:none;
+    position:absolute;
+    border:solid #c0c0c0 1px;
+    box-shadow: 5px 5px 5px #7e7d7d;
+    background-color: aliceblue;
+    z-index: 100;
+} 
+
+div.menu:hover div.submenu{
+    display:block
+}
+
+div.submenu a{
+    display: flex;
+    display:block;
+    padding:5px 10px;
+    width: 190px;
+}
+
+div.menu button{
+    background-color: transparent;
+    border: transparent;
+    text-decoration: none;
+    
+}
+
+@media screen and (max-width: 720px) {
+
+header{
+    display: block;
+    width: 100vw;
+}
+
+.image{
+    flex: 1;
+    margin: 15px;
+    display: block;
+    align-items: center;
+}
+
+.left img{
+    width: 90vw;
+}
+
+.navbar{
+    width: 100vw;
+    align-items: center;
+}
+
+section{
+    flex-direction: column;
+    height: 125vh;
+    width: 100vw;
+}
+
+section img{
+    width: 70vw;
+}
+
+section p{
+    font-size: 5vw;
+    padding-bottom: 25px;
+}
+
+section.newsshit{
+    flex-direction: column;
+    height: 87vh;
+    width: 100vw;
+}
+
+section.newsshit p{
+    font-size: 4vw;
+}
+
+section.newsshit h1{
+    font-family: 'Playfair Display', serif;
+    padding-top: 30px;
+    font-size: 5.5vw;
+}
+
+section.news{
+    flex-direction: column;
+    height: 87vh;
+    width: 100vw;   
+}
+
+section.news p{
+    font-size: 4vw;
+}
+
+section.news h1{
+    font-family: 'Playfair Display', serif;
+    padding-top: 30px;
+    font-size: 5vw;
+}
+
+.about img{
+    width: 100vw;
+}
+
+footer{
+    width: 100vw; 
+}
+
+}
